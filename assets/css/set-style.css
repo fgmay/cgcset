@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #101749;
+  --secondary-color: #967503;
+  --border-color: #222b6b;
+  --button-text-color: white;
+}
+
+/* header */
+.header-cta {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.header-cta:hover, .header-cta:focus {
+  background-color: var(--border-color);
+  border-color: var(--border-color);
+}
+.u-scrolled .header-cta {
+  background-color: var(--primary-color);
+  border-color: var(--border-color);
+}
+.u-scrolled .header-cta:hover, .u-scrolled .header-cta:focus {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+/* sign up banner */
+.signup {
+  margin-top: 140px !important;
+  margin-bottom:40px;
+}
