@@ -62,7 +62,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: .99rem;
   font-weight: 400;
   line-height: 1.7;
   color: #212529;
@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  padding-left: 10px;
 }
 
 abbr[title],
@@ -365,7 +366,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 h1, .h1 {
@@ -389,7 +390,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .lead {
@@ -479,8 +480,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  height: 350px;
+  padding-bottom: 20px;
 }
 
 .img-thumbnail {
@@ -639,8 +640,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .col {
@@ -2896,8 +2897,8 @@ fieldset:disabled a.btn {
 
 .btn-light:hover {
   color: #212529;
-  background-color: #dae5f0;
-  border-color: #d1dfec;
+  background-color: #2b4aa1;
+  border-color: #2b4aa1;
 }
 
 .btn-light:focus, .btn-light.focus {
@@ -2964,14 +2965,14 @@ fieldset:disabled a.btn {
 
 .btn-purple {
   color: #fff;
-  background-color: #1224a5;
-  border-color: #1224a5;
+  background-color: #101749;
+  border-color: #101749;
 }
 
 .btn-purple:hover {
   color: #fff;
   background-color: #162bb3;
-  border-color: #0e2096;
+  border-color: #162bb3;
 }
 
 .btn-purple:focus, .btn-purple.focus {
@@ -2983,8 +2984,8 @@ fieldset:disabled a.btn {
 
 .btn-purple.disabled, .btn-purple:disabled {
   color: #fff;
-  background-color: #1224a5;
-  border-color: #1224a5;
+  background-color: #101749;
+  border-color: #101749;
 }
 
 .btn-purple:not(:disabled):not(.disabled):active, .btn-purple:not(:disabled):not(.disabled).active,
@@ -7436,7 +7437,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #151b26 !important;
+  background-color: #101749 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -16955,8 +16956,8 @@ button:focus {
 
 .u-icon--purple[href]:hover {
   color: #fff;
-  background-color: #162bb3;
-  border-color: #0e2096;
+  background-color: #546afa;
+  border-color: #546afa;
 }
 
 .u-icon--purple.disabled, .u-icon--purple:disabled {
@@ -20222,7 +20223,7 @@ button:focus {
 }
 
 .max-width-10 {
-  max-width: 5rem;
+  max-width: 40rem;
 }
 
 .max-width-12 {
